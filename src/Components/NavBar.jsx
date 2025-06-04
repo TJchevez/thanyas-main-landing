@@ -8,8 +8,8 @@ const NavBar = () => {
         <div className="nav_container">
           <div className="nav_row">
             <h1>TPOE WRITES</h1>
-            <figure className="nav__icon-figure">
-              <img src={icon} alt="" />
+            <figure>
+              <img src={icon} alt="" className="nav__icon-figure"/>
             </figure>
           </div>
         </div>
